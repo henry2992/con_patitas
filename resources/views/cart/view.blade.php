@@ -60,7 +60,7 @@
                                 @endforeach
                           
                                <tr>
-                               <td colspan="4" style="text-align: right;"><input type="hidden" name="total_amount" value="{{$total}}" /> Subtotal</td><td style="background:antiquewhite;"> <b>${{$total}}</b></td>
+                               <td colspan="4" style="text-align: right;"><input type="hidden" id="total_amount" name="total_amount" value="{{$total}}" /> Subtotal</td><td style="background:antiquewhite;"> <b>${{$total}}</b></td>
                             </tr>
                                   @endif
                                 @endif
@@ -72,8 +72,10 @@
                  
                      @if(Auth::guard('web')->check())                          
                      @if(count(session('item_'.Auth::user()->id)) > 0 )
-                    <div class="col-md-11 text-align-right" id='checkout_button'><a href="{{url('cart/view')}}" class="btn btn-primary">Actualizar</a>&nbsp;
-                        <a href="#" class="btn btn-success"  onClick="checkMembership();">Check Out</a> 
+                    <div class="col-md-11 text-align-right" id='checkout_button'>
+                        <a href="{{url('cart/view')}}" class="btn btn-primary">Actualizar</a>&nbsp;
+                        {{--<a href="#" class="btn btn-success"  onClick="checkMembership();">Check Out</a>--}}
+                        <a class="btn btn-success" id="checkout_btn" href="#">Pagar Ahora</a>
                     </div>
                     @endif
                     @endif
@@ -110,6 +112,11 @@
 @push('js')
 
     <script>
+        function setCheckoutURL() {
+            let amount = $('#total_amount').val();
+            let checkoutURL = "https://paybox.xchange.ec/?pay_user={{Auth::user()->email}}&commerce=sebas.diaz.97@gmail.com&secret_key=ADB52C32-48C88-3753-1F39-90769F8BE67A&amount="+amount
+            $("#checkout_btn").attr("href", checkoutURL);
+        }
   
        function removeItem(obj){
 
@@ -142,6 +149,8 @@
         
         	location.href="<?php echo url('cart/account'); ?>";
         });
+
+        setCheckoutURL();
   
     </script>
 @endpush
