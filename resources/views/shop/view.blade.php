@@ -18,8 +18,8 @@
 	                                        </span>
 	                                        </div>
 	                                    @endif
-	                   		
-	                   		 
+
+
                                     @if($status = Session::get("error"))
                                         <div class="alert alert-info form-group">
                                         <span class="help-block">

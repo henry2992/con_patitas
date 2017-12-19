@@ -49,7 +49,9 @@ class CartController extends Controller
 
     public function add(Request $request){
 
-        
+        if(!Auth::guard('web')->check()){
+    		return redirect(url('login'));
+    	}
 
          $product = $request->product;
          $count = $request->product_count;
