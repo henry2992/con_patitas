@@ -8,7 +8,7 @@
                     <form class="nomargin sky-form boxed" action="{{route("updateProfile")}}" method="post">
                         {{csrf_field()}}
                         <header>
-                            <i class="fa fa-users"></i> EDIT USER ACCOUNT
+                            <i class="fa fa-users"></i> EDITAR CUENTA DE USUARIO
                         </header>
                         <fieldset class="nomargin">
 
@@ -47,8 +47,8 @@
 
                             <div class="margin-bottom-10 margin-top-20">
                                 <select name="gender" class="form-control">
-                                    <option value="1" {{$data->gender==1 ? 'selected':''}}>Male</option>
-                                    <option value="2" {{$data->gender ==2 ? 'selected':''}}>Female</option>
+                                    <option value="1" {{$data->gender==1 ? 'selected':''}}>Masculino</option>
+                                    <option value="2" {{$data->gender ==2 ? 'selected':''}}>Femenino</option>
                                 </select>
                                 @if ($errors->has('gender'))
                                     <span class="help-block">
@@ -309,8 +309,8 @@
                                         @endif
 
                                 </div>
-                                <h6 style="margin: 10px 15px;">Your phone number is critical in helping us get your lost pet home to you again.
-                                    It is not used for anything other than that.
+                                <h6 style="margin: 10px 15px;">Su número de teléfono es muy importante para ayudarnos a encontrar a su
+                                    mascota perdida. No lo usaremos para más nada ni se lo daremos a terceros.
                                 </h6>
                             </div>
 
@@ -349,7 +349,7 @@
 
                         <div class="row margin-bottom-20">
                             <div class="col-md-12 text-align">
-                                <button type="submit" class="btn btn-primary"><i class="fa fa-check"></i> SUBMIT</button>
+                                <button type="submit" class="btn btn-primary"><i class="fa fa-check"></i> ENVIAR</button>
                             </div>
                         </div>
 

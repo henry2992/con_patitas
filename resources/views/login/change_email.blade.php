@@ -8,7 +8,7 @@
                 <form class="nomargin sky-form boxed" action="{{route("updateProfile")}}" method="post">
                 {{csrf_field()}}
                 <header>
-                    <i class="fa fa-users"></i> Change Email Address
+                    <i class="fa fa-users"></i> Cambiar dirección de correo
                 </header>
                 <fieldset class="nomargin">
 

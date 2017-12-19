@@ -5,15 +5,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-sm-12 margin-left-30">
-                    <h3><b>Email Owners Of John</b></h3>
+                    <h3><b>Correo de los dueños de John</b></h3>
                     <hr/>
                 </div>
                 <div class="col-md-6 margin-left-30">
-                    <label>Your Email Address<span class="red-mark"> *</span></label>
+                    <label>Su dirección de correo<span class="red-mark"> *</span></label>
                     <input type="email" class="form-control" name="email" />
                 </div>
                 <div class="col-md-10 margin-left-30 margin-top-20">
-                    <label>Your Message<span class="red-mark"> *</span> </label>
+                    <label>Su mensaje<span class="red-mark"> *</span> </label>
                     <textarea type="text" class="form-control" name="message" placeholder="Leave your message here"></textarea>
                 </div>
 
@@ -24,7 +24,7 @@
                 </div>
 
                 <div class="col-md-6 margin-top-20 margin-left-30">
-                     <button class="btn btn-primary send-email" name="send"><i class="fa fa-check-circle"></i>SEND</button>
+                     <button class="btn btn-primary send-email" name="send"><i class="fa fa-check-circle"></i>ENVIAR</button>
                 </div>
             </div>
         </div>

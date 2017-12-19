@@ -5,13 +5,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 margin-left-20">
-                    <h1><b>Congratulations !</b></h1>
+                    <h1><b>¡Felicidades!</b></h1>
                     <hr/>
                 </div>
                 <div class="col-md-12">
-                    <p>Your Email address is verified.</p>
+                    <p>Su correo ha sido verificado con éxito.</p>
                     <br>
-                    <b>Thank you</b>
+                    <b>Gracias</b>
                 </div>
             </div>
         </div>

@@ -45,7 +45,7 @@
                                 @if($profile->tag)
                                 {{ $profile->tag->tag}}
                                 @else
-                                    <span style="color:#000">NONE</span>
+                                    <span style="color:#000">Ninguno</span>
                                 @endif
                             </span>
                         </li>
@@ -77,17 +77,17 @@
                             <li><b>Castrado</b> : {{$profile->spay}}</li>
                         @endif
                         @if($profile->tabiestag)
-                            <li><b>Rabies Tag</b> : {{$profile->rabiestag}}</li>
+                            <li><b>Etiqueta de Rabia</b> : {{$profile->rabiestag}}</li>
                         @endif
                         @if($profile->license)
-                            <li><b>License</b> : {{$profile->license}}</li>
+                            <li><b>Licencia</b> : {{$profile->license}}</li>
                         @endif
                        
                         @if($profile->municipal_license)
-                            <li><b>Municipal License</b> : {{$profile->municipal_license}}</li>
+                            <li><b>Licencia Municipal</b> : {{$profile->municipal_license}}</li>
                         @endif
                         @if($profile->municipal_expiration)
-                            <li><b>Municipal Expiration</b> : {{$profile->municipal_expiration}}</li>
+                            <li><b>Expiración Municipal</b> : {{$profile->municipal_expiration}}</li>
                         @endif
                         @if($profile->sevice_level==0?'Basic':'')
                                 <li><b>Nivel de servicio</b> : <a href="#">Basic</a></li>
@@ -95,7 +95,7 @@
                         @if($profile->missing == 0)
                                 <li><div  class="btn btn-default missing_reports" data-value="{{$profile->id}}" style="color:red"><i class="fa fa-eye"></i> Perdido</div>&nbsp;&nbsp;<span style="color:rgba(0,0,0,0.3)">haz click para reportar tu mascota perdida</span></li>
                             @else
-                                <li><i class="fa fa-eye"></i> Missing reported <span style="color:rgba(0,0,0,0.3)"></span><div  class="btn btn-default found_reports" data-value="{{$profile->id}}" style="color:red">I found this pet</div>&nbsp;<span style="color:rgba(0,0,0,0.3)">click here to report</span></li>
+                                <li><i class="fa fa-eye"></i> Reportado perdido <span style="color:rgba(0,0,0,0.3)"></span><div  class="btn btn-default found_reports" data-value="{{$profile->id}}" style="color:red">Encontré esta mascota</div>&nbsp;<span style="color:rgba(0,0,0,0.3)">click aquí para reportar</span></li>
                         @endif
                       
 
@@ -128,7 +128,7 @@
                     <div class="row margin-bottom-10">
                         <div class="alert alert-info form-group" style="margin-top:20px">
                                         <span class="help-block">
-                                            <strong>You don not have any pets now. Please click add button to add your pets.</strong>
+                                            <strong>No tiene mascotas registradas. Haga click en el boton 'Agregar una mascota' para añadir sus mascotas.</strong>
                                         </span>
                         </div>
              
@@ -154,7 +154,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Select the provider.</h4>
+                <h4 class="modal-title">Seleccione proveedor.</h4>
             </div>
 
             <div class="modal-body">
@@ -162,7 +162,7 @@
                     <input id="petId" type="hidden" value="" />
                     <label> </label>
                     <select id="combobox">
-                        <option value="">Select one...</option>
+                        <option value="">Seleccione...</option>
                         @foreach($providers as $provider)
                         <option value="{{$provider->id}}">{{$provider->name}}</option>
                         @endforeach
@@ -170,8 +170,8 @@
                 </div>
             </div>
             <div class="modal-footer" style="padding: 1px 15px;border-top: 0">
-                <button type="button" id="save_provider" class="btn btn-primary" data-dismiss="modal">Save</button>
-                <button type="button"  class="btn btn-default close_popup" data-dismiss="modal">Close</button>
+                <button type="button" id="save_provider" class="btn btn-primary" data-dismiss="modal">Guardar</button>
+                <button type="button"  class="btn btn-default close_popup" data-dismiss="modal">Cerrar</button>
             </div>
 
         </div>
@@ -186,19 +186,19 @@
        <div class="modal-content">
            <div class="modal-header">
                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-               <h4 class="modal-title">Upgrade account to Premium</h4>
+               <h4 class="modal-title">Cámbiate a Premium</h4>
            </div>
 
            <div class="modal-body">
                <div >
-                    You have to upgrade your account from basic to Premium to get tag from Con Patitas.
+                    Deber cambiar su cuenta de básico a Premium para obtener identificadores de ConPatitas
                     <br />
-                    Are you agree ?
+                    Está de acuerdo ?
                </div>
            </div>
            <div class="modal-footer" style="padding: 1px 15px;border-top: 0">
                <button type="button" id="go_upgrade_account" class="btn btn-primary" data-dismiss="modal">OK</button>
-               <button type="button"  class="btn btn-default close_popup" data-dismiss="modal">Close</button>
+               <button type="button"  class="btn btn-default close_popup" data-dismiss="modal">Cerrar</button>
            </div>
 
        </div>
@@ -218,7 +218,7 @@
 
             </div>
             <div class="modal-footer" style="padding: 1px 15px;border-top: 0">
-                <button type="button"  class="btn btn-default close_popup" data-dismiss="modal">Close</button>
+                <button type="button"  class="btn btn-default close_popup" data-dismiss="modal">Cerrar</button>
             </div>
 
         </div>

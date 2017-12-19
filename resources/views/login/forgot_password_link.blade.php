@@ -39,7 +39,7 @@
 
                         <div class="row margin-bottom-10">
                             <div class="col-md-3 margin-left-15">
-                                <button id="btn_change_password" class="btn btn-success form-control" type="submit">Enviar e-mail</button>
+                                <button id="btn_change_password" class="btn btn-success form-control" type="submit">Enviar correo</button>
                             </div>
                         </div>
                     </form>

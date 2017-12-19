@@ -13,7 +13,7 @@
 
                     @if($errors->has('status'))
                     <div class="col-md-10 alert-danger" style="padding: 20px;">
-                        <i class="fa fa-check-circle"></i><b> Get me Home Club QR Tag added to your <a href="{{url("cart")}}">shopping cart.</a></b>
+                        <i class="fa fa-check-circle"></i><b> Obtener la etiqueta QR de Home Club agregada a su <a href="{{url("cart")}}">carrito de compra.</a></b>
                     </div>
                     @endif
                     @if(isset($warning))
@@ -62,7 +62,7 @@
 
                     </div>
                     <div class="col-md-11 text-align-right"><a href="{{url('cart/view')}}" class="btn btn-primary">Actualizar</a>&nbsp;
-                        <a href="{{url('checkout/view')}}" class="btn btn-success">Check Out</a> 
+                        <a href="{{url('checkout/view')}}" class="btn btn-success">Comprar</a>
                     </div>
                </div>
             </div>

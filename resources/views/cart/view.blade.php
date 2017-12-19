@@ -26,7 +26,7 @@
                                 <tr>
                                     <th style="width:100px;max-width:100px"></th>
                                     <th style="min-width: 500px">Productos</th>
-                                    <th style="min-width: 50px">Price</th>
+                                    <th style="min-width: 50px">Precio</th>
                                     <th style="width:100px;max-width: 100px;!important;">Productos</th>
                                     <th style="max-width: 60px !important;">Total</th>
                                 </tr>
@@ -90,19 +90,22 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Upgrade Membership</h4>
+                <h4 class="modal-title">Cambiar membresía</h4>
             </div>
 
             <div class="modal-body">
                 <div class="col-md-12">
                 	<div class="margin-20">
-                		<p>Thank you for selecting our products. <br><br>Your account is current level is Basic. First you have to upgrade membership to Premium to buy and receive our services. <br><br><br> Thank you.<p> 
+                		<p>
+                            Gracias por seleccionar nuestros productos. <br><br>
+                            El nivel actual de su cuenta es Básico. Primero debe cambiarse a Premium para comprar
+                            y recibir nuestros servicios. <br><br><br> Gracias.<p>
                 	</div>	
                 </div>
             </div>
             <div class="modal-footer" style="padding: 1px 15px;border-top: 0">
                 <button type="button" id="upgrade_membership" class="btn btn-primary" data-dismiss="modal">Ok</button>
-                <button type="button"  class="btn btn-default close_popup" data-dismiss="modal">Cancel</button>
+                <button type="button"  class="btn btn-default close_popup" data-dismiss="modal">Cancelar</button>
             </div>
 
         </div>

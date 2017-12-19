@@ -32,8 +32,8 @@
                             <thead class="table">
                                 <tr>
                                     <th style="width:100px;max-width:100px"></th>
-                                    <th style="min-width: 500px">Products</th>
-                                    <th style="width:100px;max-width: 100px;!important;">Quantity</th>
+                                    <th style="min-width: 500px">Productos</th>
+                                    <th style="width:100px;max-width: 100px;!important;">Cantidad</th>
                                     <th style="max-width: 60px !important;">Total</th>
                                 </tr>
                             </thead>

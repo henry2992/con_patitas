@@ -84,7 +84,7 @@
                                 <select style="height:40px;padding: 0;width: 100%;" name="gender" class="form-control">
                                     <option value="1">Masculino</option>
                                     <option value="2">Femenino </option>
-                                    <option value="3">Other</option>
+                                    <option value="3">Otro</option>
                                 </select>
                                     <i></i>
                                 </div>
@@ -98,8 +98,8 @@
                                 </div>
                                 <div class="col col-md-8">
                                     <select style="height:40px;padding: 0;width: 100%;" name="type" class="form-control">
-                                        <option value="1">Dog</option>
-                                        <option value="2">Cat</option>
+                                        <option value="1">Perro</option>
+                                        <option value="2">Gato</option>
                                     </select>
                                     <i></i>
                                 </div>
@@ -201,7 +201,7 @@
                             <div class="margin-bottom-10 row" style="line-height:50px">
                                 <div class="col col-md-4">
                                     <label class="input">
-                                       ID de Microchip
+                                       ID de Microship
                                     </label>
                                 </div>
                                 <div class="col col-md-4">
@@ -288,14 +288,14 @@
                             {{--end recaptcha--}}
 
                             <div class="margin-top-30">
-                                <label class="checkbox nomargin"><input class="checkbox-inline" name="agree" type="checkbox">Estoy de acuerdo con los  <a href="{{url('privacy')}}">términos de servicio</a></label>
+                                <label class="checkbox nomargin"><input class="checkbox-inline" name="agree" type="checkbox">Estoy de acuerdo con los  <a href="{{url('privacy')}}">términos del servicio</a></label>
                                 {{--<label class="checkbox nomargin"><input class="checkbox-inline" name="special_offer" type="checkbox">I want to receive news and  special offers</label>--}}
                             </div>
 
 
                         <div class="row margin-bottom-10 margin-top-20" id='save_profile_btn' style='display:none'>
                             <div class="col-md-12">
-                                <button type="submit" class="btn btn-primary"><i class="fa fa-check"></i> Save Profile</button>
+                                <button type="submit" class="btn btn-primary"><i class="fa fa-check"></i> Guardar Perfil</button>
                             </div>
                         </div>
 

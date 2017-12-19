@@ -25,7 +25,7 @@
 
                         <fieldset class="nomargin">
                             <label class="input margin-bottom-10">
-                                <label class="input">Dirección e-mail <span class="red-mark"> *</span> </label>
+                                <label class="input">Dirección de correo <span class="red-mark"> *</span> </label>
                                 <input required="" class="form-control"  type="email" name="email" required>
                             </label>
 
@@ -72,11 +72,11 @@
         },
         message : {
             email:{
-                required:"Please endter your email."
+                required:"Por favor introduzca su correo."
             },
             contents:{
-                required:"Please endter your email.",
-                minlength:"Please enter more than 30 words"
+                required:"Por favor introduzca su correo.",
+                minlength:"Por favor su mensaje debe tener más de 30 palabras"
             }
         },
         submitHandler: function(form) {

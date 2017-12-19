@@ -10,31 +10,34 @@
                         <h1><b>How Con Patitas Works</b></h1>
                         <hr/>
                         <p>
-                            Watch the video below to learn more about Con Patitas or visit the shop to get your own Con Patitas Digital ID tag!
+                            ¡Observe el video a continuación para aprender más acerca de Con Patitas o visite nuestra tienda
+                            para obtener su propio microship de identificación Con Patitas!
                         </p>
                     </div>
 
                     <div class="col-md-12">
                         <h3>
-                            <b>How does it work ?</b>
+                            <b>¿Cómo funciona?</b>
                         </h3>
                     </div>
 
                     <div class="col-md-12 nopadding">
                         <div class="col-md-6">
                             <p>
-                                A physical ID tag that links to FREE online profile for your pet. That profile can have any information you want, including multiple emergency contacts, license & rabies tag numbers, microchip data, critical medications, and much more.
+                                Un chip de identificación físico que vincula a un perfil online GRATIS para su mascota.
+                                Este perfil puede tener cualquier información que usted desee, incluyendo varios contactos de
+                                emergencia, números de identificación de licencias y rabia, datos de microship, medicaciones
+                                críticas y mucho más.
                             </p>
                             <br>
                             <br>
                             <h3>
-                                <b>When someone finds your pet they can get it home in 4 ways</b>
+                                <b>Cuando alguien encuentra su mascota pueden regresarla a casa de 3 formas diferentes</b>
                             </h3>
                             <ul>
-                                <li>Scanning a QR code</li>
-                                <li>Typing in the tag's web address</li>
-                                <li>Tapping the tag with a newer smartphone</li>
-                                <li>Or calling Con Patitas’s 24-hour " Found Pet Hotline "</li>
+                                <li>Escaneando el código QR</li>
+                                <li>Escribiendo a la dirección web del chip</li>
+                                <li>O llamando la línea de Mascotas Encontradas de Con Patitas disponible las 24 horas</li>
                             </ul>
                         </div>
 
@@ -45,7 +48,7 @@
 
                         <div class="col-md-11 text-align" style="position: relative;">
                             <hr/><br>
-                            <a href="#" class="btn btn-primary">Buy Now</a>
+                            <a href="#" class="btn btn-primary">Compre ya</a>
                         </div>
                     </div>
 
@@ -53,12 +56,12 @@
                     <div class="col-md-12 nopadding">
                         <div class="margin-top-40"></div>
                         <div class="col-md-7">
-                            <h3>Have More Questions ?</h3>
+                            <h3>¿Tiene más preguntas?</h3>
                             <br>
                             <ul>
-                                <li>Visit the <a href="#">FAQ Page</a></li>
-                                <li><a href="#">Contact us </a>directly</li>
-                                <li>Check out our cool selection of ID tags & collars in the <a href="#">Shop</a></li>
+                                <li>Visita nuestra págian de <a href="#">Preguntas Frecuentes</a></li>
+                                <li><a href="#">Contáctenos </a>directamente</li>
+                                <li>Visite nuestra amplia varidad de chips en nuestra <a href="#">Tienda</a></li>
                             </ul>
                         </div>
 

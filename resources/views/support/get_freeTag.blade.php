@@ -12,8 +12,8 @@
 
             <div class="row">
                 <div class="col-md-12 text-align margin-top-20">
-                    <h1>Get a Free 2017 "Smart" Pet ID Tag</h1>
-                    <h3>(Limited time offer - ends 5/31/2017 - or while supplies last - U.S. Only)</h3>
+                    <h1>Obtenga una microship de identificación gratis para su mascota</h1>
+                    <h3>(Oferta limitada)</h3>
                 </div>
             </div>
 

@@ -39,13 +39,13 @@
 										<h2>{{$data->name}}</h2>
 									</div>
 									<div class="shop-item-price">
-										<h4>Price : ${{$data->price}}</h4>
+										<h4>Precio : ${{$data->price}}</h4>
 									</div>
 									<hr />
 										<p> {{$data->descriptions ? $data->descriptions : ""}}</p>									<!-- /short description -->
 									<hr />
 									<div class="col-md-12 margin-bottom-20">
-									 <div class="col-md-2 padding-10"><h4>Counts</h4></div>
+									 <div class="col-md-2 padding-10"><h4>Cantidad</h4></div>
 									 <div class="col-md-6">
 									  <input class="form-control" max="50" min="1"  value=1 type="number" id="productCount"  onkeydown="validateCount();"/>
 									  </div>
@@ -72,7 +72,7 @@
 										</div><!-- /btn-group -->
 										<div class="btn-group pull-left product-opt-qty">
 										</div><!-- /btn-group -->
-										<a class="btn btn-primary pull-left product-add-cart" onclick="submitForm(this)">ADD TO CART</a>
+										<a class="btn btn-primary pull-left product-add-cart" onclick="submitForm(this)">Agregar al carrito</a>
 									</form>
 									<!-- /FORM -->
 									<hr />

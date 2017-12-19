@@ -6,7 +6,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 margin-left-20">
-                    <h1><b>Get Mobile APP</b></h1>
+                    <h1><b>Obtenga la aplicación móvil</b></h1>
                     <hr/>
 
 
@@ -15,18 +15,16 @@
                 <div class="col-md-12 margin-left-20">
                     <div class="col-md-8">
                         <p>
-                            <b>Get Con Patitas's mobile app:</b>
+                            <b>Obtenga la aplicación móvil Con Patitas:</b>
                         </p>
 
                         <ul>
-                            <li>Mobile Access - use your smartphone instead of your desktop</li>
-                            <li>Tips & Tails - articles, news, stories</li>
-                            <li>Get Social - Con Patitas's Facebook, Twitter, Instagram and more</li>
-                            <li>Videos! - YouTube & Vimeo videos</li>
-                            <li>PetLoverGeek - podcasts & live radio</li>
-                            <li>Monthly specials and more!</li>
+                            <li>Acceso Móbil - use su teléfono en vez de su computadora</li>
+                            <li>Consejos & Colas - artículos, noticias, historias</li>
+                            <li>Redes sociales - Con Patitas en Facebook, Twitter, Instagram y más</li>
+                            <li>Videos! - YouTube & Vimeo</li>
                         </ul>
-                        <p>Get It Now !</p>
+                        <p>Obténgalo ahora!</p>
                     </div>
 
                     <div class="col-md-4">

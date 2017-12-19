@@ -57,7 +57,7 @@
 
                             <div class="row margin-bottom-10">
                                 <div class=" col-md-4">
-                                    <label class="input">TagID</label>
+                                    <label class="input">ID de Microship</label>
                                 </div>
                                 <div class=" col-md-8">
 
@@ -105,7 +105,7 @@
                                     <select style="height:40px;padding: 0;width: 100%;" name="gender" class="form-control">
                                         <option value="1" {{$data->gender == 1 ? 'selected':''}}>Masculino</option>
                                         <option value="2" {{$data->gender == 2 ? 'selected':''}}>Femenino </option>
-                                        <option value="3" {{$data->gender == 3 ? 'selected':''}}>Other</option>
+                                        <option value="3" {{$data->gender == 3 ? 'selected':''}}>Otro</option>
                                     </select>
                                     <i></i>
                                 </div>
@@ -177,7 +177,7 @@
                                 <div class="col col-md-4">
 
                                     <select style="height:40px;padding: 0;width: 100%;" name="spay" class="form-control">
-                                        <option value="1" {{$data->spay == 1?'selected':'' }}>Yes</option>
+                                        <option value="1" {{$data->spay == 1?'selected':'' }}>Si</option>
                                         <option value="0" {{$data->spay == 0?'selected':'' }}>No</option>
                                     </select>
                                 </div>

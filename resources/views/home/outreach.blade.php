@@ -11,36 +11,39 @@
                         <img class="img-responsive" src="{{asset("assets/images/non-profit.jpg")}}" width="300"/>
                     </div>
                     <div class="col-md-6 margin-left-10">
-                        <h1><b>Con Patitas's 10-10 Animal Non-Profit Support Program</b></h1>
+                        <h1><b>Programa sin fines de lucro 10-10 de Con Patitas</b></h1>
                         <hr/>
 
                         <p>
                             <b>
-                                Qualified non-profit rescue & shelter organizations can use Con Patitas tags and Con Patitas's partners' tags for terrific fundraising opportunities:
+                                Refugios y organizaciones sin fines de lucro pueden usar los chips de Con Patitas
+                                para oportunidades única de recaudación de fondos:
                             </b>
                         </p>
 
                         <br>
                         <ul>
-                            <li>Earn affiliate revenue</li>
-                            <li>Discounts on wholesale bulk purchases</li>
-                            <li>Special discount codes to share with your social media community</li>
-                            <li>Product donations for special events</li>
+                            <li>Gané ingresos de afiliado</li>
+                            <li>Descuentos únicos en compras por cantidades</li>
+                            <li>Códigos especiales de descuento para compartir en sus redes sociales</li>
+                            <li>Donación de productos para eventos especiales</li>
                         </ul>
 
                         <br>
                         <br>
                         <p>
-                            <b>Ask us about our deep discounts for animal non-profits on custom artwork tags!</b>
+                            <b>¡Pregúntenos acerca de nuestros descuentos especiales, para organizaciones sin fines de lucro,
+                                en nuestros chips personalizados!</b>
                         </p>
                         <br>
                         <h5><b>
-                                <a href="#">See why Con Patitas is the most comprehensive solution available</a>
+                                <a href="#">Vea porque Con Patitas es la mejor solución disponible</a>
                             </b>
                         </h5>
                         <p>
                             <b>
-                                To get started or learn more about how Con Patitas can help your animal non-profit organization,<a href="{{url("contactus")}}">contact us.</a>
+                                Para comenzar o aprender más de como Con Patitas puede ayudar a su organización sin fines de
+                                lucro,<a href="{{url("contactus")}}">contáctenos.</a>
                             </b>
                         </p>
                     </div>

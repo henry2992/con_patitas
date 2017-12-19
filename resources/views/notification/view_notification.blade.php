@@ -16,8 +16,8 @@
                         <p>{{$notification->contents}}</p>
                     </div>
                     <div class="col-md-3 padding-10">
-                        <a href="{{route('notification_view',array('id'=>$notification->id))}}" class="btn btn-primary" >View in Map</a>
-                        <a href="#" class="btn btn-danger btn_delete_notification" data-value="{{$notification->id}}">Delete</a>
+                        <a href="{{route('notification_view',array('id'=>$notification->id))}}" class="btn btn-primary" >Ver en el Mapa</a>
+                        <a href="#" class="btn btn-danger btn_delete_notification" data-value="{{$notification->id}}">Borrar</a>
                     </div>
                 </div>
                 @endforeach
@@ -45,7 +45,7 @@
             @else
                 <div class="row text-align">
                     <div class="col-md-12">
-                        <h1><b>You don't have any messages on this website</b></h1>
+                        <h1><b>No tiene mensajes en este sitio</b></h1>
                     </div>
                     <div class="col-md-12">
                         <hr/>
