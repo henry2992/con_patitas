@@ -7,11 +7,14 @@
             <div class="row">
                 <div class="col-md-12 col-sm-10 margin-left-20">
                     <div class="col-md-11 margin-left-20">
-                        <h1><b>Con Patitas's 10-10  Program</b></h1>
+                        <h1><b>Programa 10-10 Con Patitas</b></h1>
                         <hr/>
 
                         <h4>
-                            <b>Con Patitas is proud to offer a fundraising program that not only helps non-profits generate support in their fundraising efforts, but also offers the fastest and most comprehensive solution to get lost pets home.</b>
+                            <b>
+                                Con Patitas está orgullos de ofrecer un programa de recaudación de fondos para ayudar
+                                no solo a organizacion sin fines de lucro en sus esfuerzos de recaudación, sino
+                                par aofrecer la solución más confiable de recuperar sus mascotas pérdidas.</b>
                         </h4>
                     </div>
 
@@ -19,17 +22,17 @@
                         <div class="col-md-9">
                             <h4>
                                 <b>
-                                    Qualified organizations will receive the benefits of:
+                                    Las organizaciones que califiquen recibirán los siguientes beneficios:
                                 </b>
                             </h4>
 
                             <br>
                             <ul>
-                                <li>Bulk purchase of Con Patitas Digital ID tags at far below wholesale cost.</li>
-                                <li>Purchased tags can be re-sold, raffled or included as part of adoption kits</li>
-                                <li>"10-10" Gift Certificates<a href="#note1"> [1]</a></li>
-                                <li>Customizable tags for large scale fundraising<a href="#note2">[2]</a></li>
-                                <li>Raffle and auction packages for special fundraising events</li>
+                                <li>Precios preferenciales para comprar por cantidades de los chips de Con Patitas.</li>
+                                <li>Los chips comprados pueden ser revendidos, sorteados o incluidos en paquetes de regalos</li>
+                                <li>Certificados de Regalos "10-10"<a href="#note1"> [1]</a></li>
+                                <li>Chips personalizados para recaudaciones de fondos a gran escala <a href="#note2">[2]</a></li>
+                                <li>Sorteos y paquetes de subasta para eventos de recaudación de fondos especiales</li>
                             </ul>
                         </div>
                         <div class="col-md-2 margin-top-40">
@@ -43,14 +46,16 @@
                         <div class="col-md-9">
                                 <h4>
                                     <b>
-                                        In order to be considered for the Con Patitas 10-10 Program, your organization must meet certain qualifications and requirements, including:
+                                        Para ser considerado en el programa 10-10 de Con Patitas, su organización debe cumplir
+                                        ciertas calificaciones y requisitos, incluyendo:
                                     </b>
                                 </h4>
 
                             <ul>
-                                <li>Verified non-profit status</li>
-                                <li>Creation and maintenance of a free Con Patitas.com business account</li>
-                                <li>Commitment to distribute Con Patitas ID tags purchased through the program and ensuring that the provided PDF instructions(insert link to PDF here) are included with the tag</li>
+                                <li>Status verificado de que es sin fines de lucro</li>
+                                <li>Creación y uso de una cuenta gratuita de ConPatitas.com</li>
+                                <li>Compromiso de distribución de los michroships de identificación de Con Patitas comprados
+                                    a través del programa y asegurándose de proveer instrucciones de uso junto con los chips</li>
                             </ul>
                         </div>
                         <div class="col-md-2 margin-top-40">
@@ -62,20 +67,24 @@
                     <div class="col-md-11">
                         <hr/>
                         <p>
-                            For a printable information sheet about our 10-10 program <a href="#">CLICK HERE</a>
+                            Para una página imprimible con información del programa 10-10 haga <a href="#">CLICK AQUÍ</a>
                         </p>
 
                         <br>
                         <p>
-                            To download an application for our 10-10 program <a href="#">CLICK HERE</a>
+                            Para descargar un formuario de aplicación al programa 10-10 haga <a href="#">CLICK AQUÍ</a>
                         </p>
                         <br>
                         <p id="note1">
-                            [1] Organizations are given a unique code for a $10 Gift Certificate off all Con Patitas products and services, on a printable PDF gift certificate that may be sold or included as part of adoption kits. Each financial quarter, Con Patitas will give the organization 10% of net sales produced through the voucher/gift certificate code in the form of a cash donation.
+                            [1] A las organizaciones se les entrega un código único para un Certificado de Regalo de $10
+                            de todos los productos y servicios de Con Patitas, a través de un imprimible en PDF que puede ser vendido
+                            o incluído como parte de los paquetes de adopción. Cada cuarto financiero, Con Patitas dará a la
+                            organización un 10% de descuento en todas las ventas producidas a través de este código.
                         </p>
                         <br>
                         <p id="note2">
-                            [2] Minimum purchase required for customized tags. Customized fundraising packages for bulk purchases greater than 1500 tags available for highly qualified organizations.
+                            [2] Es necesario comprar una cantidad mínima de chips personalizados. Existen paquetes personalizados
+                            para compras por cantidades mayores a 1500 chips para organizaciones altamente calificadas.
                         </p>
                     </div>
                 </div>

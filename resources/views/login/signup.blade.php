@@ -28,7 +28,7 @@
                                         <strong>{{ $errors->first('email') }}</strong>
                                     </span>
                                 @endif
-                                <b class="tooltip tooltip-top-right">Needed to verify your account</b>
+                                <b class="tooltip tooltip-top-right">Es necesario veririficar su cuenta</b>
                                 <p>
                                     <h6 style="padding: 1px 10px;">
                                         Su email no será compartido con ninguna tercera persona
@@ -401,7 +401,7 @@
 
                         <div class="row margin-bottom-20 padding-10" id='signup_btn' style="display: none;">
                             <div class="col-md-12">
-                                <button type="submit" class="btn btn-primary"><i class="fa fa-check"></i> REGISTER</button>
+                                <button type="submit" class="btn btn-primary"><i class="fa fa-check"></i> REGISTRAR</button>
                             </div>
                         </div>
 

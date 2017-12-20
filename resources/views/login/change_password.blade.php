@@ -8,7 +8,7 @@
                     <form class="nomargin sky-form boxed" id="change_passwordForm" action="{{route("changePassword")}}" method="post">
                         {{csrf_field()}}
                         <header>
-                            <i class="fa fa-users"></i> Change Password
+                            <i class="fa fa-users"></i> Cambiar contraseña
                         </header>
                         <fieldset class="nomargin">
 
@@ -60,7 +60,7 @@
 
                         <div class="row margin-bottom-10">
                             <div class="col-md-3 margin-left-15">
-                                <button id="btn_change_password" class="btn btn-success form-control" type="submit">Change</button>
+                                <button id="btn_change_password" class="btn btn-success form-control" type="submit">Cambiar</button>
                             </div>
                         </div>
                     </form>

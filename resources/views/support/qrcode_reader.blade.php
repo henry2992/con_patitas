@@ -10,7 +10,9 @@
                     <hr/>
                     <div class="col-md-8 nomargin nopadding">
 
-                        <h4>Con Patitas ID tags allow you to access a pet's critical information in a number of ways:</h4>
+                        <h4>Los microships de identificación de Con Patitas le permiten acceder a la información
+                            crítica de su mascota de varias maneras:
+                        </h4>
 
                         <ul>
                             <li>Call-Center </li>
@@ -36,7 +38,8 @@
 
                 <div class="margin-left-30 col-md-11">
                     <p>
-                        Estos lectores QR para su Smartphone no mantienen ninguna relación con CONPATITAS.COM, usted puede usar cualquier opción para escanear la identificación QR. 
+                        Estos lectores QR para su Smartphone no mantienen ninguna relación con CONPATITAS.COM, usted
+                        puede usar cualquier opción para escanear la identificación QR.
                     </p>
                 </div>
 

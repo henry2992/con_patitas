@@ -33,7 +33,7 @@
 
                     <h4>Para crear el perfil de su perro y activar su identificación QR:</h4>
                         <p>1) Ingrese a conpatitas.com e inicie sesión, si no tiene cuenta cree una. </p>
-                        <p>2) Haga click en el botón “mis mascotas” y cree el perfil de su mascota.</p>
+                        <p>2) Haga click en el botón “Mis mascotas” y cree el perfil de su mascota.</p>
                         <p>3) Finalmente haga click en “Activar identificación” y siga las instrucciones. </p>
                 </div>
             </div>

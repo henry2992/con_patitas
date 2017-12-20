@@ -4,7 +4,7 @@
 <!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
 <head>
     <meta charset="utf-8" />
-    <title>Pet Website For You </title>
+    <title>Con Patitas </title>
     <meta name="keywords" content="compatitas.com,pet website,lost dog" />
     <meta name="description" content="compatitas.com,Pet website,founding lost pet,dog cat" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -78,13 +78,13 @@
                             <i class="fa fa-info"></i>
                         </a>
                         <div class="quick-cart-box notification" style="max-height:500px;overflow-y:auto">
-                            <h4>New Messages</h4>
+                            <h4>Nuevos Mensajes</h4>
 
                             @foreach($messages as $message)
                             <div class="quick-cart-wrapper">
                                 <a href="{{route('notification_view',array('id'=>$message->id))}}" style="text-decoration: none;">
                                     <h6><span>{{$message->contents}}</span></h6>
-                                    <small>For {{\App\Pet::find($message->pet_id)->name}}</small>
+                                    <small>Para {{\App\Pet::find($message->pet_id)->name}}</small>
                                 </a>
                             </div>
                             @endforeach
@@ -105,11 +105,11 @@
                                     <i class="fa fa-info"></i>
                                 </a>
                                 <div class="quick-cart-box notification" style="max-height:500px;overflow-y:auto">
-                                    <h4>New Messages</h4>
+                                    <h4>Nuevos Mensajes </h4>
 
 
                                         <div class="quick-cart-wrapper margin-left-10">
-                                                <h6><span>inbox is empty.</span></h6>
+                                                <h6><span>bandeja de entrada vacía.</span></h6>
                                                 <small></small>
                                         </div>
 
@@ -136,7 +136,7 @@
                             <i class="fa fa-shopping-cart"></i>
                         </a>
                         <div class="quick-cart-box cart">
-                            <h4>Shop Cart</h4>
+                            <h4>Carro de compras</h4>
 
                             <div class="quick-cart-wrapper">
                               <?php $total=0; ?>  
@@ -156,7 +156,7 @@
 
                             <!-- quick cart footer -->
                             <div class="quick-cart-footer clearfix">
-                                <a href="{{url('cart/view')}}" class="btn btn-primary btn-xs pull-right">VIEW CART</a>
+                                <a href="{{url('cart/view')}}" class="btn btn-primary btn-xs pull-right">VER CARRO</a>
                                 <span class="pull-left"><strong>TOTAL:</strong> ${{$total}}</span>
                             </div>
                             <!-- /quick cart footer -->
@@ -274,27 +274,27 @@
                                 </a>
                                 @else
                                 <a class="dropdown-toggle" href="#">
-                                  SIGN OUT
+                                  SALIR
                                 </a>
                                     <ul class="dropdown-menu">
                                          <li class="dropdown">
                                               <a class="dropdown-toggle" href="{{url('profile/edit')}}">
-                                                  <i class="fa fa-user"></i> Edit Profile
+                                                  <i class="fa fa-user"></i> Editar Perfil
                                               </a>
                                         </li>
                                         <li class="dropdown">
                                             <a class="dropdown-toggle" href="{{url('profile/change_email')}}">
-                                                <i class="fa fa-lock"></i> Change Email
+                                                <i class="fa fa-lock"></i> Cambiar Correo
                                             </a>
                                         </li>
                                         <li class="dropdown">
                                             <a class="dropdown-toggle" href="{{url('profile/change_password')}}">
-                                                <i class="fa fa-lock"></i> Change Password
+                                                <i class="fa fa-lock"></i> Cambiar Contraseña
                                             </a>
                                         </li>
                                         <li class="dropdown">
                                             <a class="dropdown-toggle" href="{{url("signout")}}">
-                                                <i class="fa fa-sign-out"></i> Sign Out
+                                                <i class="fa fa-sign-out"></i> Salir
                                             </a>
                                         </li>
                                     </ul>
@@ -458,7 +458,7 @@
 
         <div class="copyright" style="padding:0">
             <div class="container" style="text-align:center">
-               <div style="color:#ffffff"> &copy; 2017 All Rights Reserved, ConPatias</div>
+               <div style="color:#ffffff"> &copy; 2017 Todos los derechos reservados, ConPatias</div>
             </div>
         </div>
     </footer>

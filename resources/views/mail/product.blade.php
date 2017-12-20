@@ -490,7 +490,7 @@
 <table class="custom-table" style="width:100%;padding:10px;border:1px solid rgba(232, 231, 231, 0.73);overflow:scroll">
 	<thead style="background-color:rgba(232, 231, 231, 0.83);">
 		<tr>
-			<th>No</th>
+			<th>No.</th>
 			<th>Nombre del producto</th>
 			<th>Precio</th>
 			<th>Cantidad</th>
@@ -703,7 +703,7 @@
                         
                         <td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
                         
-                            <em>Copyright © 2017&nbsp; Conpatitas, All rights reserved.</em><br>
+                            <em>Copyright © 2017&nbsp; Conpatitas, Todos los derechos reservados.</em><br>
 <br>
 <br>
 &nbsp;

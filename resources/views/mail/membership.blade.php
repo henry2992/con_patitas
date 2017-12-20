@@ -160,15 +160,15 @@
                                     <!-- COPY -->
                                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                         <tr>
-                                            <td align="center" style="font-size: 25px; font-family: Helvetica, Arial, sans-serif; color: #333333; padding-top: 30px;" class="padding">Your Account is Premium now</td>
+                                            <td align="center" style="font-size: 25px; font-family: Helvetica, Arial, sans-serif; color: #333333; padding-top: 30px;" class="padding">Su cuenta es Premium ahora</td>
                                         </tr>
                                         <tr>
-                                            <td align="center" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;" class="padding"><h3>Hi , {{$firstname.' '.$lastname}}</h3></td>
+                                            <td align="center" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;" class="padding"><h3>Hola , {{$firstname.' '.$lastname}}</h3></td>
                                         </tr>
 	<tr style="padding:20px"><td><p>describe something to customers</p></td>
 	</tr>
                                         <tr style="padding:10px">
-                                            <td><h3>Thank you for membership<h3></td>
+                                            <td><h3>Gracias por hacerse miembro</h3></td>
                                         </tr>	
                                       
                                     </table>
@@ -210,7 +210,7 @@
             <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="max-width: 500px;" class="responsive-table">
                 <tr>
                     <td align="center" style="font-size: 12px; line-height: 18px; font-family: Helvetica, Arial, sans-serif; color:#666666;">
-                       Conpatitas Customer Support Center -  https://conpatitas.com/support
+                       Conpatitas Centro de Atención al cliente -  https://conpatitas.com/support
                         <br>
                         <span style="font-family: Arial, sans-serif; font-size: 12px; color: #444444;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
                     </td>

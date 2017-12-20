@@ -13,7 +13,7 @@
             <div class="row">
                 <div class="col-md-11 margin-left-10">
                   
-                    <h4><b>Costo del envió: </b></h4>
+                    <h4><b>Costo del envío: </b></h4>
                     <ul>
                         <li>$4 - Identificaciones</li>
                        

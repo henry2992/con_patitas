@@ -391,7 +391,7 @@
                             {{--Start Municipal license--}}
                             <br>
                             <div class="padding-20"> </div>
-                            <h3><b>Municipal License</b></h3>
+                            <h3><b>Licencia Municipal</b></h3>
                             <hr/>
                             
                             {{--End Municipal License--}}
@@ -436,7 +436,7 @@
 
             </div>
             <div class="modal-footer">
-                <button type="button"  class="btn btn-default close_popup" data-dismiss="modal">Cerca</button>
+                <button type="button"  class="btn btn-default close_popup" data-dismiss="modal">Cerrar</button>
             </div>
 
         </div>
@@ -457,11 +457,11 @@
                 <form id="email_form">
                     <input type="hidden" name="_token" value="{{csrf_token()}}"/>
                     <div class="form-group">
-                        <label for="email_addr">Your Email address:</label>
+                        <label for="email_addr">Su dirección de correo:</label>
                         <input type="email" class="form-control" id="email_addr" name="email_addr" required>
                     </div>
                     <div class="form-group">
-                        <label for="email_contents">Contents:</label>
+                        <label for="email_contents">Contenidos:</label>
                         <textarea class="form-control" id="email_contents" name="email_contents" required></textarea>
                     </div>
 
@@ -471,7 +471,7 @@
             </div>
             <div class="modal-footer"  style="padding: 1px 15px;border-top: 0">
                 <button type="submit" class="btn btn-default"  data-value="" id="send_email">Enviar</button>
-                <button type="button"  class="btn btn-default close_popup" data-dismiss="modal">Cerca</button>
+                <button type="button"  class="btn btn-default close_popup" data-dismiss="modal">Cerrar</button>
             </div>
 
         </div>
@@ -489,7 +489,7 @@
                 <div class="col-md-12 margin-top-40">
                     <form id="location_form">
                         <div class="form-group">
-                            <label for="email_contents">Leave your detail message:</label>
+                            <label for="email_contents">Deje su mensaje:</label>
                             <input type="hidden" id="location_info" data-lat="" data-lng="" />
                             <input type="hidden" id="is_updated" />
                             <textarea class="form-control" id="location_contents" name="location_contents" required></textarea>
@@ -499,7 +499,7 @@
             </div>
             <div class="modal-footer"  style="padding: 1px 15px;border-top: 0">
                 <button type="submit" class="btn btn-default"  data-value="{{$data->id}}" data-user="{{$user->id}}" id="send_location">Enviar</button>
-                <button type="button"  class="btn btn-default close_popup" data-dismiss="modal">Cerca</button>
+                <button type="button"  class="btn btn-default close_popup" data-dismiss="modal">Cerrar</button>
             </div>
 
         </div>
@@ -696,16 +696,16 @@
             function showError(error) {
                 switch(error.code) {
                     case error.PERMISSION_DENIED:
-                        x.innerHTML = "User denied the request for Geolocation."
+                        x.innerHTML = "El usuario negó los permisos para la Geolocalización."
                         break;
                     case error.POSITION_UNAVAILABLE:
-                        x.innerHTML = "Location information is unavailable."
+                        x.innerHTML = "Información de geolocalización no disponible."
                         break;
                     case error.TIMEOUT:
-                        x.innerHTML = "The request to get user location timed out."
+                        x.innerHTML = "La solicitud para obtener la geolocalización expiró."
                         break;
                     case error.UNKNOWN_ERROR:
-                        x.innerHTML = "An unknown error occurred."
+                        x.innerHTML = "Error desconocido."
                         break;
                 }
             }
@@ -744,7 +744,7 @@
                 },
                 message: {
                     sms_contents : {
-                        minlength : "please enter a message more than 30 letters",
+                        minlength : "por favor introduzca un mensaje mayor a 30 caracteres",
                     }
                 },
                 submitHandler: function(form) {
@@ -767,7 +767,7 @@
 
                             console.log(data);
                             $("body").removeClass("loading");
-                            $("#details_popup .modal-body").html("<h4>"+data+"</h4><br><b>Thank you<b>");
+                            $("#details_popup .modal-body").html("<h4>"+data+"</h4><br><b>Gracias<b>");
                             $("#details_popup").modal("show");
 
                         }

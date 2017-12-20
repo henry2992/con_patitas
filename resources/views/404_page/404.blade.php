@@ -11,7 +11,7 @@
 							</div>
 						</div>
 						<div class="col-md-6">
-							<h3>Please check your requests.</h3>
+							<h3>La página que busca no existe.</h3>
 						</div>
 					</div>
 				</div>

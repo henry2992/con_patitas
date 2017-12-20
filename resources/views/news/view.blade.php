@@ -7,7 +7,7 @@
             <div class="row">
 
                 <div class="col-md-11 margin-left-20">
-                    <h1><b>Forum & News</b></h1>
+                    <h1><b>Forum & Noticias</b></h1>
                     <hr/>
                 </div>
 
@@ -85,7 +85,7 @@
                 @else
                         <div class="row text-align">
                             <div class="col-md-11">
-                                <h2><b>There aren't any messages on this website</b></h2>
+                                <h2><b>No tiene mensajes en el sitio</b></h2>
                             </div>
                             <div class="col-md-11">
                                 <hr/>
@@ -99,8 +99,8 @@
                     <!-- WARNING -->
                     @if(!Auth::check())
                     <div class="alert alert-warning alert-bordered-dashed text-center margin-bottom-30"><!-- DASHED -->
-                        <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-                        <p>YOU MUST BE LOGGED IN TO REPLY TO THIS TOPIC!</p>
+                        <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">×</span><span class="sr-only">Cerrar</span></button>
+                        <p>DEBE ESTAR LOGUEADO PARA RESPONDER EN ESTE TEMA!</p>
                     </div>
                     @endif
                     <!-- /WARNING -->
@@ -110,11 +110,11 @@
 
                         <div class="border-bottom-1 border-top-1 padding-10">
                             <span class="pull-right size-11 margin-top-3 text-muted">today</span>
-                            <strong>LEAVE A REPLY</strong>
+                            <strong>DEJE SU RESPUESTA</strong>
                         </div>
 
                         <div class="col-md-6" style="width: 100%;">
-                            <br class="input">Picture
+                            <br class="input">Foto
 
                             <form  name ='photo' action="" id='imageuploadform' method="post"  enctype="multipart/form-data">
                                 <input hidden="true" id="fileupload" type="file" accept=".jpg,.png" name="image[]" style="display: none;">
@@ -139,7 +139,7 @@
                                     </span>
                                      @endif
                                 </div>
-                                    <button class="btn btn-success">Post a news</button>
+                                    <button class="btn btn-success">Publique una noticia</button>
                             </form>
 
                         </div>
