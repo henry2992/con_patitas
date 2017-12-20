@@ -18,11 +18,11 @@ class ShopController extends Controller
 
     	//check if the user's membership is upgraded.
 
-    	if(!Auth::guard('web')->check()){
-    		return redirect(url('login'));
-    	}
+//    	if(!Auth::guard('web')->check()){
+//    		return redirect(url('login'));
+//    	}
 
-    	$userLevel = Auth::user()->membership;
+//    	$userLevel = Auth::user()->membership;
 
     	//if($userLevel !=1){
     	//	return redirect(url('cart/account'));
