@@ -134,6 +134,7 @@ class CartController extends Controller
         $tags = array();
         $price = 1.99;
         $session_total = 0;
+        $interval = "month";
 
         //Campos de xchange.ec
         $pay_user = $request->get('pay_user');
@@ -229,14 +230,13 @@ class CartController extends Controller
             $dataAdmim['total'] = $total_amount;
             Mail::send("mail.sendToAdminForOrder", $dataAdmim, function ($message) use ($dataAdmim) {
                 $message->to($dataAdmim['admin']);
-                $message->subject("There is a new Order.");
+                $message->subject("Hay un nuevo pedido.");
 
             });
             $request->session()->forget('item_' . Auth::user()->id);
-//            return redirect()->route('product-client-view', ['type' => 'tag', 'page' => 1, 'order' => 'id-asc'])->with('status', 'Order is successful. We sent an email with detail information for your order.');
-            return redirect("https://paybox.xchange.ec/?pay_user=".$pay_user."&commerce=".$commerce."&secret_key=".$secret_key."&amount=".$amount);
+            return redirect("https://paybox.xchange.ec/recurrent.php?api=".$secret_key."&account=".$commerce."&user=".$pay_user."&amount=".$amount."&interval=".$interval);
         } else {
-            return redirect()->route('product-client-view', ['type' => 'tag', 'page' => 1, 'order' => 'id-asc'])->with('error', 'Something went wrong.');
+            return redirect()->route('product-client-view', ['type' => 'tag', 'page' => 1, 'order' => 'id-asc'])->with('error', 'Algo salió mal.');
         }
 
     }
