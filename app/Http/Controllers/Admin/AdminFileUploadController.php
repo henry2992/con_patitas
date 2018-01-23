@@ -77,12 +77,12 @@ class AdminFileUploadController extends Controller
                         return response()->json($returnJson);
                     }
                     else {
-                        $returnJson['status'] = 'Upload Fail: Unknown error occurred!';
+                        $returnJson['status'] = 'Subida fallida: Error desconocido!';
                         return response()->json($returnJson);
                     }
                 }
                 else {
-                    $returnJson['status'] = 'Upload Fail: Unsupported file format or It is too large to upload!';
+                    $returnJson['status'] = 'Subida fallida: Formato no soportado o fichero demasiado grande!';
                     return response()->json($returnJson);
                 }
         }

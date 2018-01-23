@@ -98,9 +98,9 @@ class HomeController extends Controller
         $result = Text::find(1)->update($insert);
 
         if($result){
-            return redirect(route('admin.ads.show'))->with('status','Updated');
+            return redirect(route('admin.ads.show'))->with('status','Actualizado');
         }else{
-            return redirect()->back()->withInput($request->all())->with('status','Something went wrong');
+            return redirect()->back()->withInput($request->all())->with('status','Algo salió mal');
         }
     }
 
@@ -168,14 +168,14 @@ class HomeController extends Controller
 //                           $request->session()->flush();
 //                           $request->session()->regenerate();
 
-                        return redirect()->back()->with('status','Password Changed.');
+                        return redirect()->back()->with('status','Contraseña cambiada.');
                     }else{
 
                     }
                 }
                 else
                 {
-                    return redirect()->back()->with('status','Please enter correct current password.');
+                    return redirect()->back()->with('status','Por favor introduzca su contraseña actual correctamente.');
                 }
             }
         }

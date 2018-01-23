@@ -13,15 +13,15 @@ class CheckoutController extends Controller
     	$this->middleware("auth:web");
     }
 
-    public functoin add(Request $request){
+    public function add(Request $request){
 
     }
 
-    public functoin update(Request $request){
+    public function update(Request $request){
     	
     }
 
-    public functoin delete(Request $request){
+    public function delete(Request $request){
     	
     }
 

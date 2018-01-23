@@ -66,15 +66,15 @@ class PetController extends Controller
         Mail::send("mail.foundPet",$data, function($message) use($data) {
             $message->to($data['to']);
             $message->from($data['from']);
-            $message->subject("I found your pet.");
+            $message->subject("Encontré a su mascota.");
          
         });
 
         if(count(Mail::failures()) > 0){
-            $msg = "Error sending mail.";
+            $msg = "Error enviando el correo.";
         }
         else{
-            $msg = "Mail sent to ".$data['to'];
+            $msg = "Correo enviado a ".$data['to'];
         }
 
         return response($msg);
@@ -110,10 +110,10 @@ class PetController extends Controller
             }
 
             if($updated){
-                $msg['msg']= "Your Location information is updated.";
+                $msg['msg']= "Su ubicación ha sido actualizada.";
                 $msg['is_updated']='';
             }else{
-                $msg['msg']= "Your Location information is sent to Pet owner.";
+                $msg['msg']= "Su ubicación ha sido enviada al dueño de la mascota.";
               //  $msg['is_updated']=$result;
             }
     
@@ -124,7 +124,7 @@ class PetController extends Controller
 	  
 	        
         }else{
-        	 $msg['msg']= "Something went wrong.";
+        	 $msg['msg']= "Algo salió mal.";
                  $msg['is_updated']='';
         	
         	 return response()->json($msg);
@@ -150,9 +150,9 @@ class PetController extends Controller
             'text' => $contents
         ]);
  	if($result){
-        	return response()->json('Send a SMS successfully.');
+        	return response()->json('SMS enviado exitosamente.');
     	} else {
-    		return response()->json('Something went wrong');
+    		return response()->json('Algo salió mal');
     	}
 
     }
