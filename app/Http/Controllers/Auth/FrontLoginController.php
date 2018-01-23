@@ -46,7 +46,7 @@ class FrontLoginController extends Controller
         if($validator->passes()) {
             if($user <= 0)
             {
-                return redirect()->back()->withInput($request->only("email", "password", "remember"))->with('status','Your Email/Password is wrong or not verified.');
+                return redirect()->back()->withInput($request->only("email", "password", "remember"))->with('status','Su correo/contraseña es incorrecto o no ha sido verificado.');
             }
 
             if (Auth::guard()->attempt(['email' => $request->email, 'password' => $request->password], $request->remember)) {
@@ -54,7 +54,7 @@ class FrontLoginController extends Controller
                 $request->session('item_'.Auth::user()->id,array());
                 return redirect()->intended("/");
             }else{
-                return redirect()->back()->withInput($request->only("email", "password", "remember"))->with('status','Email or Password is wrong');
+                return redirect()->back()->withInput($request->only("email", "password", "remember"))->with('status','Su correo/contraseña es incorrecto o no ha sido verificado');
             }
         }
             return redirect()->back()->withInput($request->only("email", "password", "remember"))->withErrors($validator);
@@ -131,7 +131,7 @@ class FrontLoginController extends Controller
 
             });
 
-            return $this->registered($request, $user) ?: redirect(url('/login'))->with("status","Confirmation Email has been send. Please check your email.");
+            return $this->registered($request, $user) ?: redirect(url('/login'))->with("status","Revise su buzón le hemos enviado un correo de confirmación.");
         }
             return redirect()->back()->withInput($request->except('password'))->withErrors($validate);
     }
@@ -154,10 +154,10 @@ class FrontLoginController extends Controller
 
 
 //
-            return redirect('login')->with("status","Your Email is verified.");
+            return redirect('login')->with("status","Su correo ha sido verificado.");
         }
 
-        return redirect('login')->with("status","Something went wrong.");
+        return redirect('login')->with("status","Algo salió mal.");
     }
 
     protected function guard()

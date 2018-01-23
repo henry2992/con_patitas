@@ -154,14 +154,14 @@ class UserProfileController extends Controller
                     $result = $obj_user->save();
 
                     if($result){
-                       return redirect('profile/change_password')->with('status','Password Changed.');
+                       return redirect('profile/change_password')->with('status','Contraseña Cambiada.');
                     }else{
 
                     }
                 }
                 else
                 {
-                   return redirect('profile/change_password')->with('status','Please enter correct current password.');
+                   return redirect('profile/change_password')->with('status','Por favor introduzca la contraseña actual correctamente.');
                 }
             }
         }

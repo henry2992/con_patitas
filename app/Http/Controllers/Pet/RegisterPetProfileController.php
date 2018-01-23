@@ -103,11 +103,11 @@ class RegisterPetProfileController extends Controller
                     $msg = "success";
                     return response()->json($msg);
                 } else {
-                    return redirect(route('show_pet'))->with('status', 'Registration Successful !');
+                    return redirect(route('show_pet'))->with('status', 'Registrado exitosamente!');
                 }
             }
         }
-            return redirect()->back()->withInput($request->all())->withErrors($validate)->with('status','Please check your information');
+            return redirect()->back()->withInput($request->all())->withErrors($validate)->with('status','Por favor revise su información');
     }
 
     public function show()
@@ -165,7 +165,7 @@ class RegisterPetProfileController extends Controller
 	            $exists = Tag::where('tag',$tagId)->where('is_used','0')->get()->count();
 	         
 	            if($exists < 1 ) {
-	             $msg = "This tag is already taken or non-exists.";
+	             $msg = "Este tag ya esta tomado o no existe.";
 	             return redirect(route('show_pet'))->with('status', $msg);
 	            }    
             }
@@ -180,7 +180,7 @@ class RegisterPetProfileController extends Controller
 
                         $result = Pet::where('id',$petId)->update(array('tag_id'=>null));
                         if($result) {
-                            return redirect(route('show_pet'))->with('status', 'Update successful');
+                            return redirect(route('show_pet'))->with('status', 'Actualización exitosa');
                         }
                     }else {
                         //Tag::where('pet_id',$petId)->delete();
@@ -191,17 +191,17 @@ class RegisterPetProfileController extends Controller
                     }
 
                     if($result){
-                        return redirect(route('show_pet'))->with('status','Update successful');
+                        return redirect(route('show_pet'))->with('status','Actualización exitosa');
                     }
                 }else if($isTag == 0 && is_null($datas['tag']) && is_null($datas['old_tag'])){
-                    return redirect(route('show_pet'))->with('status','Update successful.');
+                    return redirect(route('show_pet'))->with('status','Actualización exitosa.');
                 }else{
-                    return redirect(route('show_pet'))->with('status','Update successful.');;
+                    return redirect(route('show_pet'))->with('status','Actualización exitosa.');;
 //                    return redirect(route('show_pet'))->with('status','This tag is already taken.');
                 }
             }
         }else{
-            return redirect(route('show_pet'))->with('status','Something went wrong. Please check your information.');
+            return redirect(route('show_pet'))->with('status','Algo salió mal. Por favor revise su información.');
         }
     }
 
@@ -223,7 +223,7 @@ class RegisterPetProfileController extends Controller
         if($result){
             return response('success');
         }else{
-            return response('Something went wrong');
+            return response('Algo salió mal.');
         }
 
 

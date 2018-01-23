@@ -30,7 +30,7 @@ class BlogController extends Controller
             ];
             $result = Blog::create($data);
 
-            return redirect()->back()->with('status','Posted successfully ! Thank you.');
+            return redirect()->back()->with('status','Publicado con éxito! Gracias.');
         }
             return redirect()->back()->withInput($request->all())->withErrors($validate);
     }

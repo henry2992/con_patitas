@@ -27,9 +27,9 @@ class CartController extends Controller
     {
 
         $quantity = 1;
-        $productName = 'Upgrade Account to Premium.';
+        $productName = 'Mejora su cuenta a Premium.';
         $price = 10;
-        $msg = "You must upgrade to premium to buy QR tags first.";
+        $msg = "Debe mejorar a premium para poder comprar tags QR.";
         $data = $request->session()->get('item_' . Auth::user()->id);
         // $price = Prices::where('category',$category)->first()->price;
         $data[] = array('quantity' => $quantity, 'productName' => $productName, 'price' => $price, 'unique_key' => 'membership', 'image' => '#');
@@ -75,7 +75,7 @@ class CartController extends Controller
         if ($data != null) {
             foreach ($data as $key => $item) {
                 if ($item['unique_key'] == $unique_key) {
-                    return redirect()->back()->with('status', 'You have already ordered this product.');
+                    return redirect()->back()->with('status', 'Usted ya ha ordenado este producto.');
                 } else {
                     $subtotal = $count * $price;
                     $total = $total + $item['total'];
@@ -217,7 +217,7 @@ class CartController extends Controller
            		// send email
            		Mail::send("mail.product", $data, function ($message) use ($data) {
                     $message->to($data['email']);
-                    $message->subject("Order Detail");
+                    $message->subject("Detalle de Orden");
 
                 });
                         

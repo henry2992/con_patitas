@@ -63,7 +63,7 @@ class AdminAuthController extends Controller
 
             event(new Registered($admin = $this->create($request->all())));
 
-            return redirect('/admin')->with("status","Confirmation Email has been send. Please check your email.");
+            return redirect('/admin')->with("status","Revise su buzón le hemos enviado un correo de confirmación.");
         }
         return redirect()->back()->withInput($request->except('password'))->withErrors($validate);
     }

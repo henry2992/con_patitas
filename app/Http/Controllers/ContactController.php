@@ -20,8 +20,8 @@ class ContactController extends Controller
         $result = Contact::insert(['email'=>$request->email,'contents'=>$request->contents]);
    
         if($result){
-            return redirect('/contact')->with('status','Successfully sent.');
+            return redirect('/contact')->with('status','Enviado exitosamente.');
         }
-        return redirect()->back()->withInput($request->all())->with('status','Something went wrong');
+        return redirect()->back()->withInput($request->all())->with('status','Algo fue mal');
     }
 }
